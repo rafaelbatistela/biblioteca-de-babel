@@ -1,0 +1,49 @@
+
+{
+  "artigos": [
+    "o", "a", "os", "as", "um", "uma"
+  ],
+  "substantivos": [
+    "silêncio", "universo", "biblioteca", "tempo",
+    "memória", "estrela", "computador", "sonho",
+    "abismo", "palavra", "máquina", "humanidade"
+  ],
+  "verbos": [
+    "caminha", "esquece", "observa", "destrói",
+    "imagina", "encontra", "atravessa", "questiona"
+  ],
+  "adjetivos": [
+    "infinito", "estranho", "antigo", "vazio",
+    "perdido", "invisível", "silencioso"
+  ],
+  "adverbios": [
+    "lentamente", "eternamente", "talvez",
+    "nunca", "misteriosamente"
+  ],
+  "conectores": [
+    "e", "mas", "porque", "portanto",
+    "entretanto", "embora"
+  ],
+  "preposicoes": [
+    "de", "em", "com", "sobre", "entre", "para"
+  ],
+  "pronomes": [
+    "eu", "você", "ele", "ela", "nós", "eles"
+  ],
+  "elementos_natureza": [
+    "lua", "mar", "chuva", "vento", "floresta",
+    "oceano", "névoa", "sol", "tempestade"
+  ],
+  "sentimentos": [
+    "saudade", "medo", "esperança", "solidão",
+    "amor", "angústia", "alegria"
+  ],
+  "verbos_poeticos": [
+    "sussurra", "floresce", "desaparece", "devora",
+    "adormece", "dança", "renasce", "chora"
+  ],
+  "adjetivos_poeticos": [
+    "eterno", "esquecido", "adormecido", "distante",
+    "infinito", "quebrado", "solitário", "imortal"
+  ]
+}

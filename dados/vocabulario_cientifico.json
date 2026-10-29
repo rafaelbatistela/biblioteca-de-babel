@@ -1,0 +1,86 @@
+
+{
+  "fisica": {
+    "conceitos": [
+      "energia", "força", "gravidade", "velocidade",
+      "aceleração", "massa", "movimento", "pressão",
+      "temperatura", "eletricidade", "magnetismo",
+      "frequência", "comprimento de onda", "inércia"
+    ],
+    "fenomenos": [
+      "a reflexão da luz", "a transferência de calor",
+      "a expansão térmica", "a atração gravitacional",
+      "a propagação das ondas", "a conservação da energia"
+    ]
+  },
+  "quimica": {
+    "conceitos": [
+      "átomo", "molécula", "elemento químico",
+      "reação química", "ligação covalente",
+      "ligação iônica", "pH", "solução",
+      "concentração", "catalisador", "massa molar"
+    ],
+    "fenomenos": [
+      "a oxidação dos metais", "a dissolução de substâncias",
+      "a liberação de energia", "a formação de precipitados",
+      "a variação do pH", "a velocidade da reação"
+    ]
+  },
+  "biologia": {
+    "conceitos": [
+      "célula", "DNA", "RNA", "gene", "proteína",
+      "organismo", "ecossistema", "fotossíntese",
+      "respiração celular", "seleção natural",
+      "mutação genética", "biodiversidade"
+    ],
+    "fenomenos": [
+      "a divisão celular", "a transmissão de características",
+      "a adaptação dos organismos", "o fluxo de energia",
+      "a decomposição da matéria orgânica",
+      "a transferência de informação genética"
+    ]
+  },
+  "matematica": {
+    "conceitos": [
+      "função", "equação", "variável", "derivada",
+      "integral", "probabilidade", "estatística",
+      "matriz", "vetor", "algoritmo", "proporção",
+      "geometria"
+    ],
+    "fenomenos": [
+      "a variação de uma função",
+      "a distribuição de probabilidades",
+      "a convergência de uma sequência",
+      "a relação entre duas variáveis",
+      "o comportamento de uma série numérica"
+    ]
+  },
+  "computacao": {
+    "conceitos": [
+      "algoritmo", "banco de dados", "processador",
+      "memória", "rede neural", "compilador",
+      "sistema operacional", "criptografia",
+      "complexidade computacional", "estrutura de dados",
+      "protocolo", "inteligência artificial"
+    ],
+    "fenomenos": [
+      "o processamento de informações",
+      "a transmissão de dados",
+      "a execução de instruções",
+      "a consulta ao banco de dados",
+      "a otimização de um algoritmo",
+      "a classificação de padrões"
+    ]
+  },
+  "conectores": [
+    "portanto", "entretanto", "além disso",
+    "consequentemente", "nesse contexto",
+    "com base nos resultados", "desse modo"
+  ],
+  "verbos": [
+    "influencia", "determina", "altera",
+    "contribui para", "está associado a",
+    "depende de", "apresenta", "indica",
+    "demonstra", "sugere"
+  ]
+}
