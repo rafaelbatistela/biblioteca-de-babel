@@ -1,35 +1,37 @@
 
-def artigo_definido(palavra, genero="masculino", plural=False):
-    """
-    Retorna o artigo definido de acordo com gênero e número.
-    """
 
-    if genero == "feminino":
-        return "as" if plural else "a"
+def artigo_definido(genero="masculino", plural=False):
+    artigos = {
+        ("masculino", False): "o",
+        ("feminino", False): "a",
+        ("masculino", True): "os",
+        ("feminino", True): "as",
+    }
 
-    return "os" if plural else "o"
-
-
-def artigo_indefinido(palavra, genero="masculino", plural=False):
-    """
-    Retorna o artigo indefinido de acordo com gênero e número.
-    """
-
-    if genero == "feminino":
-        return "umas" if plural else "uma"
-
-    return "uns" if plural else "um"
+    return artigos[(genero, plural)]
 
 
-def combinar_artigo(palavra, genero="masculino", plural=False):
-    """
-    Combina artigo e palavra em uma expressão.
-    """
+def artigo_indefinido(genero="masculino", plural=False):
+    artigos = {
+        ("masculino", False): "um",
+        ("feminino", False): "uma",
+        ("masculino", True): "uns",
+        ("feminino", True): "umas",
+    }
 
-    artigo = artigo_definido(
-        palavra,
-        genero=genero,
-        plural=plural
+    return artigos[(genero, plural)]
+
+
+def combinar_artigo(
+    palavra,
+    genero="masculino",
+    plural=False,
+    definido=True
+):
+    artigo = (
+        artigo_definido(genero, plural)
+        if definido
+        else artigo_indefinido(genero, plural)
     )
 
     return f"{artigo} {palavra}"
